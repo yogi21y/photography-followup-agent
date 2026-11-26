@@ -1,0 +1,15 @@
+# Secrets and local config — never commit
+.env
+.env.*
+*.key
+*secret*
+*token*
+
+# Local run outputs
+outputs/
+*.log
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
